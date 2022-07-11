@@ -7,10 +7,10 @@ document.querySelector('body').onclick = function () {
 let myImage = document.querySelector('img');
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === '/img/test.jpg') {
-        myImage.setAttribute('src', '/img/city.png');
+    if (mySrc === 'img/test.jpg') {
+        myImage.setAttribute('src', 'img/city.png');
     } else {
-        myImage.setAttribute('src', '/img/test.jpg');
+        myImage.setAttribute('src', 'img/test.jpg');
     }
 }
 
